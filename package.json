@@ -1,0 +1,63 @@
+{
+    "name": "@revaplugin/database",
+    "version": "1.0.0",
+    "description": "Database plugin for RevaBot",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "npm-multi-publish",
+        "postpublish": "npm-multi-publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/revaplugin/database.git"
+    },
+    "keywords": [
+        "plugin",
+        "extension",
+        "module",
+        "revadike",
+        "revabot",
+        "revaplugin",
+        "database",
+        "typeorm",
+        "mysql2",
+        "pg",
+        "sqlite3",
+        "mssql",
+        "sql.js",
+        "oracledb",
+        "mongodb"
+    ],
+    "dependencies": {
+        "@revaplugin/RevaPlugin": "latest",
+        "typeorm": "latest",
+        "mysql2": "latest",
+        "pg": "latest",
+        "sqlite3": "latest",
+        "mssql": "latest",
+        "sql.js": "latest",
+        "oracledb": "latest",
+        "mongodb": "latest"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "latest",
+        "eslint": "latest",
+        "npm-multi-publish": "latest"
+    },
+    "author": "Revadike <revadike@outlook.com> (https://revadike.com/)",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/revaplugin/database/issues",
+        "email": "revadike@outlook.com"
+    },
+    "homepage": "https://github.com/revaplugin/database#readme",
+    "publishConfig": [
+        {
+            "registry": "https://npm.pkg.github.com"
+        },
+        {
+            "registry": "https://registry.npmjs.org"
+        }
+    ]
+}

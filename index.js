@@ -1,4 +1,4 @@
-const RevaPlugin = require("@revaplugin/RevaPlugin");
+const RevaPlugin = require("@revaplugin/revaplugin");
 const { createConnection } = require("typeorm");
 
 module.exports = class Database extends RevaPlugin {
